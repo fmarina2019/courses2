@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ <script>
+ function getGreating(lang) {
+     switch (lang) {
+         case "ua":return "Привіт"
+         case "ru":return " Нехай щастить"
+         case "en":return "Hello"
+
+default: return "Error"
+             
+     
+     }
+ }
+ let userLang=prompt("Your native language:")
+ let message=getGreating(userLang)
+document.write(message) 
+ </script>
+ //задача. Знайти розмір з/пл (ставка,(rate)+надбавка(benefits%)-податок(tax%))
+function getAverageScore(score1,score2,score3){
+     let sum=score1+score2+
+     return sum/3 
+
+}
+//_______________ 
+let score1=parseFloat(prompt("Score1="))
+let score2=parseFloat(prompt("Score2="))
+let score3=parseFloat(prompt("Score3=")) 
+let avg=getAverageScore(score1,score2,score3) 
+document.write(`Average =${avg.toFixed(2)}`)
+
+<script>
+ 
+ 
+ </script>
+</body>
+</html>
